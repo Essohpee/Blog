@@ -1,0 +1,2 @@
+# Blog
+Stock Photos gallery
