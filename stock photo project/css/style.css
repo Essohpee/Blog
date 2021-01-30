@@ -4,6 +4,21 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #1d191f;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../img/background.jpg);
@@ -97,8 +112,6 @@
   max-width: 840px;
   height: 55px;
   border-radius: 30px;
-  border: 4px solid #e0e05a;
-  opacity: 30%;
   padding: 0 30px;
   outline: none;
   margin: 20px 0;
